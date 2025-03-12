@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles/profile.css"> <!-- Link to your CSS -->
+    <!-- The SVGS -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="user-info">
+        <!-- User information will be dynamically inserted here -->
+    </div>
+    
+    <br>
+
+    <!-- Bar Chart for TotalUp and TotalDown -->
+    <div id="chart-difference" style="width: 100%; max-width: 700px; margin: auto; height: 350px;"></div>
+
+    <br>
+
+    <!-- Line Chart for XP Progress -->
+    <div id="chart-xp" style="width: 100%; max-width: 700px; margin: auto; height: 350px;"></div>
+
+    <br>
+
+    <div id="chart-piscine-xp" style="width: 100%; height: 350px;"></div>    <br>
+
+    <!-- Logout button -->
+    <button id="logout-btn">Logout</button>
+
+    <!-- Include JavaScript files -->
+    <script src="js/profileinfo.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/auditRatio.js"></script>
+    <script src="js/jsPiscine.js"></script> <!-- Added XP Graph Script -->
+    <script src="js/goPiscine.js"></script>
+
+</body>
+</html>
