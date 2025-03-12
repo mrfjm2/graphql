@@ -6,24 +6,20 @@
     <title>Profile</title>
     <link rel="stylesheet" href="styles/profile.css"> <!-- Link to your CSS -->
     <!-- The SVGS -->
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts" defer></script>
 </head>
 <body>
     <div id="user-info">
         <!-- User information will be dynamically inserted here -->
     </div>
     
-    <br>
+    <div id="chart-skills" style="width: 100%; height: 350px;"></div>
 
     <!-- Bar Chart for TotalUp and TotalDown -->
     <div id="chart-difference" style="width: 100%; max-width: 700px; margin: auto; height: 350px;"></div>
 
-    <br>
-
     <!-- Line Chart for XP Progress -->
     <div id="chart-xp" style="width: 100%; max-width: 700px; margin: auto; height: 350px;"></div>
-
-    <br>
 
     <div id="chart-piscine-xp" style="width: 100%; height: 350px;"></div>    <br>
 
@@ -31,11 +27,12 @@
     <button id="logout-btn">Logout</button>
 
     <!-- Include JavaScript files -->
-    <script src="js/profileinfo.js"></script>
-    <script src="js/profile.js"></script>
-    <script src="js/auditRatio.js"></script>
-    <script src="js/jsPiscine.js"></script> <!-- Added XP Graph Script -->
-    <script src="js/goPiscine.js"></script>
+    <script src="js/profileinfo.js" defer></script>
+    <script src="js/profile.js" defer></script>
+    <script src="js/auditRatio.js" defer></script>
+    <script src="js/jsPiscine.js" defer></script> <!-- Added XP Graph Script -->
+    <script src="js/goPiscine.js" defer></script>
+    <script src="js/skills.js" defer></script>
 
 </body>
 </html>

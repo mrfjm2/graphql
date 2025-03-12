@@ -79,3 +79,13 @@ body {
     max-width: 700px; /* Limit the max width to 700px */
     height: 350px; /* Fixed height */
 }
+
+#chart-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;  /* Make the width 100% of the parent container */
+    max-width: 700px; /* Limit the max width to 700px */
+    height: 350px; /* Fixed height */
+}
